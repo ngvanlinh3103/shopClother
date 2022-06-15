@@ -1,0 +1,95 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    body {
+        font-size: 10px;
+    }
+
+    /*     .text-img-right h1 {
+            font-size: 40px;
+        } */
+    .text-img-right {
+        left: auto;
+        right: 10%;
+        top: 45%;
+        max-width: 49%;
+    }
+
+    .menu-left ul li img.icon-shop {
+        width: 32px;
+        height: 32px;
+        margin-left: 7px;
+    }
+
+    .howitworksblock .clear {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    /*     .text-img-right h1 {
+            font-size: 46px;
+        } */
+    .menu-left ul li img.icon-shop {
+        width: 56px;
+        height: 56px;
+        margin-left: 15px;
+    }
+
+    .howitworksblock .clear {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+
+    /*     .text-img-right h1 {
+            font-size: 56px;
+        } */
+    .menu-left ul li img.icon-shop {
+        width: 60px;
+        height: 60px;
+        margin-left: 15px;
+    }
+
+    .howitworksblock .clear {
+        display: block;
+        width: 90%;
+        margin: auto;justify-items: center;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    /*     .text-img-right h1 {
+            font-size: 65px;
+        } */
+    .menu-left ul li img.icon-shop {
+        width: 62px;
+        height: 62px;
+        margin-left: 15px;
+    }
+
+    .howitworksblock .clear {
+        display: flex;
+    }
+}
+
+/* slide */
